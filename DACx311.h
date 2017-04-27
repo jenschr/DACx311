@@ -1,5 +1,5 @@
 /***************************************************
-  This library provides simple usage of the DACx311 chips
+  This library provides simple usage of the DACxx11 chips
   from TI. These are single- channel, voltage output
   digital-to-analog converter and great for setting a
   voltage reference. DAC5311, DAC3311 and DAC7311 are
@@ -19,8 +19,8 @@
   MIT license, all text above must be included in any redistribution
  ****************************************************/
 
-#ifndef DACXX11_H
-#define DACXX11_H
+#ifndef DACX311_H
+#define DACX311_H
 
 #if ARDUINO >= 100
  #include "Arduino.h"
@@ -74,5 +74,5 @@ class DACxx11 {
   #endif
 };
 
-#endif /* DACXX11_H */
+#endif /* DACX311_H */
 

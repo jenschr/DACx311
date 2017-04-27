@@ -1,4 +1,4 @@
-#include "DACxx11.h"
+#include "DACx311.h"
 #include <SPI.h>
 
 #if defined (SPI_HAS_TRANSACTION)
@@ -10,7 +10,7 @@
 
 DACxx11::DACxx11(){}
 
-void DACxx11::begin( byte csPin, byte chip, float maxVoltage = 3.3 )
+void DACxx11::begin( byte csPin, byte chip, float maxVoltage )
 {
   _cs = csPin;
   _chip = chip;
