@@ -1,3 +1,4 @@
+#include <SPI.h>
 #include <DACx311.h>
 #define PIN_CS 10
 
