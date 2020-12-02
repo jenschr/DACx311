@@ -53,7 +53,7 @@ void DACxx11::begin( byte csPin, byte chip, float maxVoltage )
   SPI.setDataMode(SPI_MODE0);
 #endif
 
-  _singleVoltageStep = float(5.0) / pow( 2, bits_to_write );
+  _singleVoltageStep = float(_maxVoltage) / pow( 2, bits_to_write );
 }
 
 void DACxx11::setVoltage( float voltage )
